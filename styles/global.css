@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('../assets/img-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.6rem;
+  display: grid;
+  place-content: center;
+}
+
+.card-ticket {
+  background-image: url('../assets/bg-card-ticket.png');
+  background-repeat: no-repeat;
+  width: 69.4rem;
+  height: 40.9rem;
+}
+
+.texts {
+  width: 49rem;
+  height: 36.6rem;
+}
+
+#content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

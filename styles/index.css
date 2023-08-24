@@ -1,0 +1,158 @@
+:root{
+  --linear: linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%);
+  --color-text-p: #F3F4FE;
+  --bg-color-button: #8860E6;
+  --text-color-h2: #202024;
+  --danger-alert: #FF8F8F;
+}
+
+
+h1{
+  font-size: 4rem;
+  background: var(--linear, linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  line-height: 130%;
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+}
+
+.ticketOk {
+  font-family:'Space Grotesk';
+  color: var(--color-text-p);
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 160%;
+  margin-bottom: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchImgGitHub {
+  width: 38.4rem;
+  height: 5.4rem;
+  border: none;
+  outline: none;
+  background-image: url('../assets/logo-github.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 1.6rem 4.4rem;
+  font-family: 'Roboto';
+  margin-bottom: 1.6rem;
+}
+
+.btnGerarTicket, .btnDownloadTicket {
+  width: 38.4rem;
+  height: 5.4rem;
+  background-color: var(--bg-color-button);
+  font-family: 'Roboto';
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-text-p);
+  text-transform: uppercase;
+}
+
+.card-ticket {
+  padding: 4.5rem;
+}
+
+.ticket > img {
+  width: 32.7rem;
+  height: 31.8rem;
+}
+
+.ticket {
+  width: 61.3rem;
+  height: 31.8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ticketPerfil {
+  width: 25.4rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 1.6rem;
+  
+}
+
+.perfilImg {
+  width: 12.7rem;
+  height: 12.8rem;
+  border-radius: 50%;
+}
+
+.ticketPerfil > p {
+  text-transform: uppercase;
+  font-family: 'Space Grotesk';
+  color: var(--bg-color-button);
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-top: .9rem;
+  letter-spacing: 1.26px;
+}
+
+.ticketPerfil h2 {
+  color: var(--text-color-h2);
+  font-family: 'Roboto';
+  font-size: 1.6rem;
+  margin-top: .8rem;
+  margin-bottom: 3.6rem;
+}
+
+.content-event {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  justify-content: space-between;
+  width: 22rem;
+}
+
+.first-content {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.last-content {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.lines {
+  width: 22rem;
+}
+
+.confirmed {
+  display: none;
+}
+
+.inputConfirmed {
+  display: none;
+}
+
+p .error {
+  color: var(--danger-alert);
+  font-family: 'Roboto';
+  margin-bottom: 1.6rem;
+}
+
+
+.hidden {
+  display: none;
+}
